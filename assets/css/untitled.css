@@ -1,0 +1,81 @@
+.row {
+  border: 2px solid rgba(255,0,0,0);
+  border-radius: 19px;
+}
+
+#article-card {
+  height: 400px;
+  background: linear-gradient(-122deg, black 34%, white 100%), var(--bs-pink);
+  color: rgb(255,255,255);
+  font-size: 21px;
+  margin: auto;
+  padding: 44px;
+}
+
+@media (max-width: 768px) {
+  #article-card {
+    font-size: 16px;
+    height: 300px;
+    padding: 24px;
+  }
+}
+
+#pfp-section {
+  width: 100%;
+  padding: 0px;
+  border-radius: 17px;
+  border-width: 4px;
+  transform: skew(0deg);
+  margin-top: 90px;
+}
+
+@media (max-width: 768px) {
+  #pfp-section {
+    margin-top: 0px;
+  }
+}
+
+#social-icons-image {
+  width: 88%;
+  transform: skew(0deg);
+  margin-top: 205px;
+}
+
+@media (max-width: 768px) {
+  #social-icons-image {
+    width: 88%;
+    margin-top: 2px;
+  }
+}
+
+#middle-section {
+  font-size: 20px;
+  text-align: center;
+  background: #000000;
+  padding-top: 152px;
+}
+
+@media (max-width: 768px) {
+  #middle-section {
+    padding-top: 372px;
+  }
+}
+
+@media (max-width: 576px) {
+  #middle-section {
+    padding-top: 272px;
+  }
+}
+
+@media (max-width: 360px) {
+  #middle-section {
+    padding-top: 172px;
+  }
+}
+
+@media (max-width: 300px) {
+  #middle-section {
+    padding-top: 122px;
+  }
+}
+
